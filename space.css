@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Style the navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the article */
+article {
+  margin-bottom: 30px;
+}
+
+/* Style the article heading */
+article h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the article image */
+article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Style the article content */
+article p {
+  margin-bottom: 10px;
+}
+
+.article-image {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease;
+}
+
+.article-image.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Style the article link */
+article a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Add hover effect to article link */
+article a:hover {
+  text-decoration: underline;
+}
